@@ -1,4 +1,7 @@
 package model;
 
-public class AppointmentStatus {
+public enum AppointmentStatus {
+    BOOKED,
+    CANCELLED,
+    COMPLETED
 }
